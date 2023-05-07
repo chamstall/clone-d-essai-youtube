@@ -1,40 +1,50 @@
+
 sup {
     top: -0.9em;
-    right:0.6em;
+    right: 0.6em;
 }
-.navbar-brand sup{ 
+.navbar-brand sup {
     font-size: 10px;
 }
-.logo img{ 
-    width:130px;
+.logo img {
+    width: 130px;
 }
-.right-logo img ,.nav-link img{ 
+.right-logo img,
+.nav-link img {
     width: 25px;
 }
-.right-logo a:last-child{ 
+.right-logo a:last-child {
     margin-right: 0 !important;
 }
-.navbar .form-control{ 
+.navbar .form-control {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
-.navbar .btn-search{ 
+.navbar .btn-search {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.nav .nav-item.active{ 
-    background-color: #80808024;    
+.nav .nav-item.active {
+    background-color: #80808024;
 }
-.nav .nav-item.active a{ 
-    column-gap:5px;
+.nav .nav-item.active a {
+    column-gap: 5px;
 }
-.nav .nav-item{ 
+.nav .nav-item {
     border-radius: 5px;
     background-color: #80808024;
 }
-.nav .nav-link{ 
+.nav .nav-link {
     color: black;
 }
-.card-text img { 
+.card-text img {
     width: 15px;
+}
+.card {
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.for-put-hover .hstack:hover,
+.for-put-hover .hstack.active {
+    background-color: #80808024;
+    border-radius: 5px;
 }
