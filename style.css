@@ -14,15 +14,6 @@ sup {
 .right-logo a:last-child{ 
     margin-right: 0 !important;
 }
-.nav{ 
-    justify-content: space-between;
-}
-/* .nav .nav-item .bar{ 
-    padding: 0 !important;
-    border-radius: 0;
-    font-size: 25px;
-    background-color: white;
-} */
 .navbar .form-control{ 
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -31,23 +22,10 @@ sup {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.navbar .btn-search img { 
-    width:25px;
-}
-.nav .nav-item.current{ 
-    background-color: black;
-}
-.nav .nav-item.current .nav-link{ 
-    color: white;
-}
 .nav .nav-item.active{ 
-    background-color: #80808024;
-    border-radius: 0;
-    
+    background-color: #80808024;    
 }
 .nav .nav-item.active a{ 
-    display: flex;
-    /* justify-content: space-between; */
     column-gap:5px;
 }
 .nav .nav-item{ 
